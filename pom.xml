@@ -38,6 +38,20 @@
                 <groupId>com.browserstack</groupId>
                 <artifactId>automate-maven-plugin</artifactId>
                 <version>0.2-SNAPSHOT</version>
+                <dependencies>
+                    <!-- BrowserStack Automate -->
+                    <dependency>
+                        <groupId>com.browserstack</groupId>
+                        <artifactId>automate-maven-plugin</artifactId>
+                        <version>0.2-SNAPSHOT</version>
+                        <exclusions>
+                            <exclusion>
+                                <artifactId>tools</artifactId>
+                                <groupId>com.sun</groupId>
+                            </exclusion>
+                        </exclusions>
+                    </dependency>
+                </dependencies>
                 <executions>
                     <execution>
                         <goals>
@@ -84,18 +98,6 @@
             <version>3.13.0</version>
         </dependency>
 
-        <!-- BrowserStack Automate -->
-        <dependency>
-            <groupId>com.browserstack</groupId>
-            <artifactId>automate-maven-plugin</artifactId>
-            <version>0.2-SNAPSHOT</version>
-            <exclusions>
-                <exclusion>
-                    <artifactId>tools</artifactId>
-                    <groupId>com.sun</groupId>
-                </exclusion>
-            </exclusions>
-        </dependency>
         <dependency>
             <groupId>org.aspectj</groupId>
             <artifactId>aspectjrt</artifactId>
