@@ -2,10 +2,7 @@ package com.browserstack.sample;
 import com.browserstack.local.Local;
 
 import com.browserstack.sample.runner.Parallelized;
-import java.io.File;
 import java.io.FileReader;
-import java.io.IOException;
-import java.io.InputStream;
 import java.net.URL;
 import java.util.HashMap;
 import java.util.Map;
