@@ -1,0 +1,658 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="89ab65d6-86d4-448e-beb1-ecdaeb5cfe89" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/browserstack/sample/BrowserStackJUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/browserstack/sample/JUnitGoogleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/browserstack/sample/LocalTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/browserstack/sample/SingleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/conf/local.conf.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/conf/single.conf.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/browserstack/sample/JUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/browserstack/sample/JUnitTest.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/browserstack/sample/JUnitTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="33" column="90" selection-start-line="33" selection-start-column="72" selection-end-line="33" selection-end-column="90" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/browserstack/sample/BrowserStackJUnitTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="41" column="113" selection-start-line="41" selection-start-column="107" selection-end-line="41" selection-end-column="113" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#605#614#0" expanded="true" />
+                <element signature="e#2391#2407#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/browserstack/sample/LocalTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/browserstack/sample/JUnitParallelTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/conf/single.conf.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/browserstack/sample/SingleTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/conf/local.conf.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/browserstack/sample/JUnitGoogleTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/test/java/com/browserstack/sample/JUnitTest.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/conf/single.conf.json" />
+        <option value="$PROJECT_DIR$/src/test/java/com/browserstack/sample/LocalTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/browserstack/sample/SingleTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/browserstack/sample/BrowserStackJUnitTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/resources/conf/local.conf.json" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="downloadDocsAutomatically" value="true" />
+        <option name="downloadSourcesAutomatically" value="true" />
+        <option name="importAutomatically" value="true" />
+        <option name="lookForNested" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+    <option name="enabledProfiles">
+      <list>
+        <option value="single" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Profiles" type="6783ec58:MavenProjectsStructure$ProfilesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="junit-browserstack" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="MavenRunner">
+    <option name="environmentProperties">
+      <map>
+        <entry key="BROWSERSTACK_ACCESSKEY" value="LsvzukhU53pvHWEBAKUG" />
+        <entry key="BROWSERSTACK_USER" value="marceloagostinho1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/compiler.xml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/encodings.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="28" />
+    <option name="y" value="38" />
+    <option name="width" value="1408" />
+    <option name="height" value="797" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="junit-browserstack" type="b2602c69:ProjectViewProjectNode" />
+              <item name="automate-junit-ci-sample" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="junit-browserstack" type="b2602c69:ProjectViewProjectNode" />
+              <item name="automate-junit-ci-sample" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="junit-browserstack" type="b2602c69:ProjectViewProjectNode" />
+              <item name="automate-junit-ci-sample" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="junit-browserstack" type="b2602c69:ProjectViewProjectNode" />
+              <item name="automate-junit-ci-sample" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="junit-browserstack" type="b2602c69:ProjectViewProjectNode" />
+              <item name="automate-junit-ci-sample" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sample" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="junit-browserstack" type="b2602c69:ProjectViewProjectNode" />
+              <item name="automate-junit-ci-sample" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="junit-browserstack" type="b2602c69:ProjectViewProjectNode" />
+              <item name="automate-junit-ci-sample" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="junit-browserstack" type="b2602c69:ProjectViewProjectNode" />
+              <item name="automate-junit-ci-sample" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sample" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="junit-browserstack" type="b2602c69:ProjectViewProjectNode" />
+              <item name="automate-junit-ci-sample" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="junit-browserstack" type="b2602c69:ProjectViewProjectNode" />
+              <item name="automate-junit-ci-sample" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="conf" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="junit-browserstack" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.LocalTest">
+    <configuration name="JUnitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="junit-browserstack" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.browserstack.sample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.browserstack.sample" />
+      <option name="MAIN_CLASS_NAME" value="com.browserstack.sample.JUnitTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
+      <envs>
+        <env name="BROWSERSTACK_USER" value="marceloagostinho1" />
+        <env name="BROWSERSTACK_ACCESSKEY" value="LsvzukhU53pvHWEBAKUG" />
+        <env name="BROWSERSTACK_LOCAL" value="true" />
+      </envs>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LocalTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="junit-browserstack" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.browserstack.sample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.browserstack.sample" />
+      <option name="MAIN_CLASS_NAME" value="com.browserstack.sample.LocalTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SingleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="junit-browserstack" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.browserstack.sample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.browserstack.sample" />
+      <option name="MAIN_CLASS_NAME" value="com.browserstack.sample.SingleTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
+      <envs>
+        <env name="BROWSERSTACK_USER" value="marceloagostinho1" />
+        <env name="BROWSERSTACK_ACCESSKEY" value="LsvzukhU53pvHWEBAKUG" />
+        <env name="BROWSERSTACK_LOCAL" value="true" />
+        <env name="config" value="single" />
+      </envs>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.JUnitTest" />
+      <item itemvalue="JUnit.SingleTest" />
+      <item itemvalue="JUnit.LocalTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.LocalTest" />
+        <item itemvalue="JUnit.SingleTest" />
+        <item itemvalue="JUnit.JUnitTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="89ab65d6-86d4-448e-beb1-ecdaeb5cfe89" name="Default Changelist" comment="" />
+      <created>1564010672150</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1564010672150</updated>
+      <workItem from="1564010674495" duration="7883000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="JUnitTest - 2019.07.25 at 12h 03m 54s.xml">
+      <configuration name="JUnitTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JUnitTest - 2019.07.25 at 12h 04m 52s.xml">
+      <configuration name="JUnitTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SingleTest - 2019.07.25 at 13h 46m 08s.xml">
+      <configuration name="SingleTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SingleTest - 2019.07.25 at 13h 47m 49s.xml">
+      <configuration name="SingleTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SingleTest - 2019.07.25 at 13h 49m 44s.xml">
+      <configuration name="SingleTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SingleTest - 2019.07.25 at 13h 54m 03s.xml">
+      <configuration name="SingleTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SingleTest - 2019.07.25 at 13h 55m 24s.xml">
+      <configuration name="SingleTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SingleTest - 2019.07.25 at 14h 02m 53s.xml">
+      <configuration name="SingleTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LocalTest - 2019.07.25 at 14h 06m 03s.xml">
+      <configuration name="LocalTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LocalTest - 2019.07.25 at 15h 21m 45s.xml">
+      <configuration name="LocalTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="7883000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="823" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.32909605" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.32909605" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.4992636" visible="true" weight="0.45056498" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.33493975" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.32909605" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32909605" />
+      <window_info anchor="bottom" id="Spring" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50073636" side_tool="true" weight="0.3294964" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Terminal" order="13" weight="0.32909605" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.3297568" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/browserstack/sample/runner/Parallelized.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-238">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/browserstack/sample/SampleServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-58">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/browserstack/sample/JUnitGoogleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/conf/single.conf.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://MAVEN/com.browserstack:junit-browserstack:1.0-SNAPSHOT">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>com.browserstack:junit-browserstack:1.0-SNAPSHOT</OriginalElement>
+          <nodes>
+            <node x="" y="">com.browserstack:junit-browserstack:1.0-SNAPSHOT</node>
+            <node x="" y="">io.undertow:undertow-core:jar:1.0.1.Final</node>
+            <node x="" y="">io.undertow:undertow-core:jar:1.0.1.Final/org.jboss.logging:jboss-logging:jar:3.1.4.GA</node>
+            <node x="" y="">io.undertow:undertow-core:jar:1.0.1.Final/org.jboss.xnio:xnio-api:jar:3.2.0.Final</node>
+            <node x="" y="">io.undertow:undertow-core:jar:1.0.1.Final/org.jboss.xnio:xnio-nio:jar:3.2.0.Final</node>
+            <node x="" y="">junit:junit:jar:4.7</node>
+            <node x="" y="">commons-io:commons-io:jar:1.3.2</node>
+            <node x="" y="">org.seleniumhq.selenium:selenium-java:jar:2.46.0</node>
+            <node x="" y="">org.seleniumhq.selenium:selenium-java:jar:2.46.0/org.seleniumhq.selenium:selenium-chrome-driver:jar:2.46.0</node>
+            <node x="" y="">org.seleniumhq.selenium:selenium-java:jar:2.46.0/org.seleniumhq.selenium:selenium-chrome-driver:jar:2.46.0/org.seleniumhq.selenium:selenium-remote-driver:jar:2.46.0</node>
+            <node x="" y="">org.seleniumhq.selenium:selenium-java:jar:2.46.0/org.seleniumhq.selenium:selenium-chrome-driver:jar:2.46.0/org.seleniumhq.selenium:selenium-remote-driver:jar:2.46.0/cglib:cglib-nodep:jar:2.1_3</node>
+            <node x="" y="">org.seleniumhq.selenium:selenium-java:jar:2.46.0/org.seleniumhq.selenium:selenium-chrome-driver:jar:2.46.0/org.seleniumhq.selenium:selenium-remote-driver:jar:2.46.0/com.google.code.gson:gson:jar:2.3.1</node>
+            <node x="" y="">org.seleniumhq.selenium:selenium-java:jar:2.46.0/org.seleniumhq.selenium:selenium-chrome-driver:jar:2.46.0/org.seleniumhq.selenium:selenium-remote-driver:jar:2.46.0/org.seleniumhq.selenium:selenium-api:jar:2.46.0</node>
+            <node x="" y="">org.seleniumhq.selenium:selenium-java:jar:2.46.0/org.seleniumhq.selenium:selenium-chrome-driver:jar:2.46.0/org.seleniumhq.selenium:selenium-remote-driver:jar:2.46.0/com.google.guava:guava:jar:18.0</node>
+            <node x="" y="">org.seleniumhq.selenium:selenium-java:jar:2.46.0/org.seleniumhq.selenium:selenium-htmlunit-driver:jar:2.46.0</node>
+            <node x="" y="">org.seleniumhq.selenium:selenium-java:jar:2.46.0/org.seleniumhq.selenium:selenium-htmlunit-driver:jar:2.46.0/net.sourceforge.htmlunit:htmlunit:jar:2.17</node>
+            <node x="" y="">org.seleniumhq.selenium:selenium-java:jar:2.46.0/org.seleniumhq.selenium:selenium-htmlunit-driver:jar:2.46.0/net.sourceforge.htmlunit:htmlunit:jar:2.17/xalan:xalan:jar:2.7.2</node>
+            <node x="" y="">org.seleniumhq.selenium:selenium-java:jar:2.46.0/org.seleniumhq.selenium:selenium-htmlunit-driver:jar:2.46.0/net.sourceforge.htmlunit:htmlunit:jar:2.17/xalan:xalan:jar:2.7.2/xalan:serializer:jar:2.7.2</node>
+            <node x="" y="">org.seleniumhq.selenium:selenium-java:jar:2.46.0/org.seleniumhq.selenium:selenium-htmlunit-driver:jar:2.46.0/net.sourceforge.htmlunit:htmlunit:jar:2.17/xalan:xalan:jar:2.7.2/xalan:serializer:jar:2.7.2/xml-apis:xml-apis:jar:1.3.04</node>
+            <node x="" y="">org.seleniumhq.selenium:selenium-java:jar:2.46.0/org.seleniumhq.selenium:selenium-htmlunit-driver:jar:2.46.0/net.sourceforge.htmlunit:htmlunit:jar:2.17/commons-collections:commons-collections:jar:3.2.1</node>
+            <node x="" y="">org.seleniumhq.selenium:selenium-java:jar:2.46.0/org.seleniumhq.selenium:selenium-htmlunit-driver:jar:2.46.0/net.sourceforge.htmlunit:htmlunit:jar:2.17/org.apache.commons:commons-lang3:jar:3.4</node>
+            <node x="" y="">org.seleniumhq.selenium:selenium-java:jar:2.46.0/org.seleniumhq.selenium:selenium-htmlunit-driver:jar:2.46.0/net.sourceforge.htmlunit:htmlunit:jar:2.17/org.apache.httpcomponents:httpmime:jar:4.4.1</node>
+            <node x="" y="">org.seleniumhq.selenium:selenium-java:jar:2.46.0/org.seleniumhq.selenium:selenium-htmlunit-driver:jar:2.46.0/net.sourceforge.htmlunit:htmlunit:jar:2.17/net.sourceforge.htmlunit:htmlunit-core-js:jar:2.17</node>
+            <node x="" y="">org.seleniumhq.selenium:selenium-java:jar:2.46.0/org.seleniumhq.selenium:selenium-htmlunit-driver:jar:2.46.0/net.sourceforge.htmlunit:htmlunit:jar:2.17/xerces:xercesImpl:jar:2.11.0</node>
+            <node x="" y="">org.seleniumhq.selenium:selenium-java:jar:2.46.0/org.seleniumhq.selenium:selenium-htmlunit-driver:jar:2.46.0/net.sourceforge.htmlunit:htmlunit:jar:2.17/xerces:xercesImpl:jar:2.11.0/xml-apis:xml-apis:jar:1.4.01</node>
+            <node x="" y="">org.seleniumhq.selenium:selenium-java:jar:2.46.0/org.seleniumhq.selenium:selenium-htmlunit-driver:jar:2.46.0/net.sourceforge.htmlunit:htmlunit:jar:2.17/net.sourceforge.nekohtml:nekohtml:jar:1.9.22</node>
+            <node x="" y="">org.seleniumhq.selenium:selenium-java:jar:2.46.0/org.seleniumhq.selenium:selenium-htmlunit-driver:jar:2.46.0/net.sourceforge.htmlunit:htmlunit:jar:2.17/net.sourceforge.cssparser:cssparser:jar:0.9.16</node>
+            <node x="" y="">org.seleniumhq.selenium:selenium-java:jar:2.46.0/org.seleniumhq.selenium:selenium-htmlunit-driver:jar:2.46.0/net.sourceforge.htmlunit:htmlunit:jar:2.17/net.sourceforge.cssparser:cssparser:jar:0.9.16/org.w3c.css:sac:jar:1.3</node>
+            <node x="" y="">org.seleniumhq.selenium:selenium-java:jar:2.46.0/org.seleniumhq.selenium:selenium-htmlunit-driver:jar:2.46.0/net.sourceforge.htmlunit:htmlunit:jar:2.17/commons-io:commons-io:jar:2.4</node>
+            <node x="" y="">org.seleniumhq.selenium:selenium-java:jar:2.46.0/org.seleniumhq.selenium:selenium-htmlunit-driver:jar:2.46.0/net.sourceforge.htmlunit:htmlunit:jar:2.17/commons-logging:commons-logging:jar:1.2</node>
+            <node x="" y="">org.seleniumhq.selenium:selenium-java:jar:2.46.0/org.seleniumhq.selenium:selenium-htmlunit-driver:jar:2.46.0/net.sourceforge.htmlunit:htmlunit:jar:2.17/org.eclipse.jetty.websocket:websocket-client:jar:9.2.11.v20150529</node>
+            <node x="" y="">org.seleniumhq.selenium:selenium-java:jar:2.46.0/org.seleniumhq.selenium:selenium-htmlunit-driver:jar:2.46.0/net.sourceforge.htmlunit:htmlunit:jar:2.17/org.eclipse.jetty.websocket:websocket-client:jar:9.2.11.v20150529/org.eclipse.jetty:jetty-util:jar:9.2.11.v20150529</node>
+            <node x="" y="">org.seleniumhq.selenium:selenium-java:jar:2.46.0/org.seleniumhq.selenium:selenium-htmlunit-driver:jar:2.46.0/net.sourceforge.htmlunit:htmlunit:jar:2.17/org.eclipse.jetty.websocket:websocket-client:jar:9.2.11.v20150529/org.eclipse.jetty:jetty-io:jar:9.2.11.v20150529</node>
+            <node x="" y="">org.seleniumhq.selenium:selenium-java:jar:2.46.0/org.seleniumhq.selenium:selenium-htmlunit-driver:jar:2.46.0/net.sourceforge.htmlunit:htmlunit:jar:2.17/org.eclipse.jetty.websocket:websocket-client:jar:9.2.11.v20150529/org.eclipse.jetty.websocket:websocket-common:jar:9.2.11.v20150529</node>
+            <node x="" y="">org.seleniumhq.selenium:selenium-java:jar:2.46.0/org.seleniumhq.selenium:selenium-htmlunit-driver:jar:2.46.0/net.sourceforge.htmlunit:htmlunit:jar:2.17/org.eclipse.jetty.websocket:websocket-client:jar:9.2.11.v20150529/org.eclipse.jetty.websocket:websocket-common:jar:9.2.11.v20150529/org.eclipse.jetty.websocket:websocket-api:jar:9.2.11.v20150529</node>
+            <node x="" y="">org.seleniumhq.selenium:selenium-java:jar:2.46.0/org.seleniumhq.selenium:selenium-htmlunit-driver:jar:2.46.0/org.apache.httpcomponents:httpclient:jar:4.4.1</node>
+            <node x="" y="">org.seleniumhq.selenium:selenium-java:jar:2.46.0/org.seleniumhq.selenium:selenium-htmlunit-driver:jar:2.46.0/org.apache.httpcomponents:httpclient:jar:4.4.1/org.apache.httpcomponents:httpcore:jar:4.4.1</node>
+            <node x="" y="">org.seleniumhq.selenium:selenium-java:jar:2.46.0/org.seleniumhq.selenium:selenium-htmlunit-driver:jar:2.46.0/org.apache.httpcomponents:httpclient:jar:4.4.1/commons-codec:commons-codec:jar:1.9</node>
+            <node x="" y="">org.seleniumhq.selenium:selenium-java:jar:2.46.0/org.seleniumhq.selenium:selenium-firefox-driver:jar:2.46.0</node>
+            <node x="" y="">org.seleniumhq.selenium:selenium-java:jar:2.46.0/org.seleniumhq.selenium:selenium-firefox-driver:jar:2.46.0/commons-io:commons-io:jar:1.3.2</node>
+            <node x="" y="">org.seleniumhq.selenium:selenium-java:jar:2.46.0/org.seleniumhq.selenium:selenium-firefox-driver:jar:2.46.0/org.apache.commons:commons-exec:jar:1.3</node>
+            <node x="" y="">org.seleniumhq.selenium:selenium-java:jar:2.46.0/org.seleniumhq.selenium:selenium-ie-driver:jar:2.46.0</node>
+            <node x="" y="">org.seleniumhq.selenium:selenium-java:jar:2.46.0/org.seleniumhq.selenium:selenium-ie-driver:jar:2.46.0/net.java.dev.jna:jna:jar:4.1.0</node>
+            <node x="" y="">org.seleniumhq.selenium:selenium-java:jar:2.46.0/org.seleniumhq.selenium:selenium-ie-driver:jar:2.46.0/net.java.dev.jna:jna-platform:jar:4.1.0</node>
+            <node x="" y="">org.seleniumhq.selenium:selenium-java:jar:2.46.0/org.seleniumhq.selenium:selenium-safari-driver:jar:2.46.0</node>
+            <node x="" y="">org.seleniumhq.selenium:selenium-java:jar:2.46.0/org.seleniumhq.selenium:selenium-support:jar:2.46.0</node>
+            <node x="" y="">org.seleniumhq.selenium:selenium-java:jar:2.46.0/org.webbitserver:webbit:jar:0.4.14</node>
+            <node x="" y="">org.seleniumhq.selenium:selenium-java:jar:2.46.0/org.webbitserver:webbit:jar:0.4.14/io.netty:netty:jar:3.5.2.Final</node>
+            <node x="" y="">org.seleniumhq.selenium:selenium-java:jar:2.46.0/org.seleniumhq.selenium:selenium-leg-rc:jar:2.46.0</node>
+            <node x="" y="">com.browserstack:automate-maven-plugin:jar:0.2-20160523.221910-8</node>
+            <node x="" y="">com.browserstack:automate-maven-plugin:jar:0.2-20160523.221910-8/org.codehaus.plexus:plexus-utils:jar:3.0.10</node>
+            <node x="" y="">com.browserstack:automate-maven-plugin:jar:0.2-20160523.221910-8/org.codehaus.mojo:aspectj-maven-plugin:jar:1.8</node>
+            <node x="" y="">com.browserstack:automate-maven-plugin:jar:0.2-20160523.221910-8/commons-codec:commons-codec:jar:1.10</node>
+            <node x="" y="">org.aspectj:aspectjrt:jar:1.7.4</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.44846153846153847" x="640.0" y="394.5" />
+          <SelectedNodes />
+          <Categories />
+          <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/browserstack/sample/BrowserStackJUnitTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="41" column="113" selection-start-line="41" selection-start-column="107" selection-end-line="41" selection-end-column="113" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#605#614#0" expanded="true" />
+            <element signature="e#2391#2407#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/conf/browserstack.local">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/conf/local.conf.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/browserstack/sample/LocalTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/browserstack/sample/JUnitParallelTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/browserstack/sample/JUnitTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="33" column="90" selection-start-line="33" selection-start-column="72" selection-end-line="33" selection-end-column="90" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/browserstack/sample/SingleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>11.0.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="" />
+  </component>
+</project>
