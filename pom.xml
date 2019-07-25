@@ -97,9 +97,9 @@
             </dependency>
 
         <dependency>
-            <groupId>org.aspectj</groupId>
-            <artifactId>aspectjrt</artifactId>
-            <version>1.7.4</version>
+            <groupId>com.nickwongdev</groupId>
+            <artifactId>aspectj-maven-plugin</artifactId>
+            <version>1.12.1</version>
         </dependency>
         <!-- /BrowserStack Automate -->
     </dependencies>
