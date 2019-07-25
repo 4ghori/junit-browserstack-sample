@@ -89,6 +89,12 @@
             <groupId>com.browserstack</groupId>
             <artifactId>automate-maven-plugin</artifactId>
             <version>0.2-SNAPSHOT</version>
+            <exclusions>
+                <exclusion>
+                    <artifactId>tools</artifactId>
+                    <groupId>com.sun</groupId>
+                </exclusion>
+            </exclusions>
         </dependency>
         <dependency>
             <groupId>org.aspectj</groupId>
