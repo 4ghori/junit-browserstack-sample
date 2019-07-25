@@ -37,7 +37,12 @@
             <plugin>
                 <groupId>com.browserstack</groupId>
                 <artifactId>automate-maven-plugin</artifactId>
-                <version>1.1.0-SNAPSHOT</version>
+                <version>1.0.0-SNAPSHOT</version>
+                <configuration>
+                    <source>11.0.2</source>
+                    <target>11.0.2</target>
+                    <complianceLevel>11.0.2</complianceLevel>
+                </configuration>
                 <executions>
                     <execution>
                         <goals>
@@ -88,7 +93,7 @@
             <dependency>
                 <groupId>com.browserstack</groupId>
                 <artifactId>automate-maven-plugin</artifactId>
-                <version>1.1.0-SNAPSHOT</version>
+                <version>1.0.0-SNAPSHOT</version>
             </dependency>
 
         <dependency>
