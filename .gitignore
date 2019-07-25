@@ -1,4 +1,4 @@
 *.png
 target/
 local.log
-.idea
+.idea/
