@@ -3,14 +3,14 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.browserstack</groupId>
-    <artifactId>testng-browserstack</artifactId>
+    <artifactId>junit-browserstack</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
 
 
-    <name>testng-browserstack</name>
-    <url>http://maven.apache.org</url>
+    <name>junit-browserstack</name>
+    <url>https://www.github.com/browserstack/junit-browserstack</url>
 
 
     <properties>
@@ -42,9 +42,9 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.testng</groupId>
-            <artifactId>testng</artifactId>
-            <version>6.9.10</version>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
         </dependency>
 
         <dependency>
@@ -71,63 +71,39 @@
             <version>1.1.1</version>
         </dependency>
 
-        <!-- BrowserStack Automate -->
         <dependency>
             <groupId>com.browserstack</groupId>
-            <artifactId>automate-maven-plugin</artifactId>
-            <version>1.0.0</version>
+            <artifactId>automate-testassist</artifactId>
+            <version>1.0.0-SNAPSHOT</version>
         </dependency>
 
-        <dependency>
-            <groupId>org.aspectj</groupId>
-            <artifactId>aspectjrt</artifactId>
-            <version>1.9.0.RC2</version>
-        </dependency>
-        <dependency>
-            <groupId>org.aspectj</groupId>
-            <artifactId>aspectjtools</artifactId>
-            <version>1.9.0.RC2</version>
-        </dependency>
-        <dependency>
-            <groupId>com.sun</groupId>
-            <artifactId>tools</artifactId>
-            <version>${java.version}</version>
-            <scope>system</scope>
-            <systemPath>${project.basedir}/pom.xml</systemPath>
-        </dependency>
+<!--        &lt;!&ndash; BrowserStack Automate &ndash;&gt;-->
+<!--        <dependency>-->
+<!--            <groupId>com.browserstack</groupId>-->
+<!--            <artifactId>automate-maven-plugin</artifactId>-->
+<!--            <version>1.0.0</version>-->
+<!--        </dependency>-->
+
 
         <!-- /BrowserStack Automate -->
     </dependencies>
 
 
-
     <build>
-
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <version>2.3.2</version>
-                <configuration>
-                    <source>1.8</source>
-                    <target>1.8</target>
-                </configuration>
-            </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
-                <version>2.18.1</version>
+                <version>2.12.4</version>
             </plugin>
-
-            <!-- BrowserStack Automate -->
             <plugin>
                 <groupId>com.browserstack</groupId>
                 <artifactId>automate-maven-plugin</artifactId>
-                <version>1.0.0</version>
+                <version>1.0.0-SNAPSHOT</version>
                 <configuration>
-                    <source>1.8</source>
-                    <target>1.8</target>
-                    <complianceLevel>1.8</complianceLevel>
+                    <source>1.6</source>
+                    <target>1.6</target>
+                    <complianceLevel>1.6</complianceLevel>
                 </configuration>
                 <executions>
                     <execution>
@@ -137,9 +113,55 @@
                     </execution>
                 </executions>
             </plugin>
-            <!-- /BrowserStack Automate -->
         </plugins>
     </build>
+
+<!--    <build>-->
+
+<!--        <plugins>-->
+<!--            <plugin>-->
+<!--                <groupId>org.apache.maven.plugins</groupId>-->
+<!--                <artifactId>maven-compiler-plugin</artifactId>-->
+<!--                <version>2.3.2</version>-->
+<!--                <configuration>-->
+<!--                    <source>11</source>-->
+<!--                    <target>11</target>-->
+<!--                </configuration>-->
+<!--            </plugin>-->
+<!--            <plugin>-->
+<!--                <groupId>org.apache.maven.plugins</groupId>-->
+<!--                <artifactId>maven-surefire-plugin</artifactId>-->
+<!--                <version>2.18.1</version>-->
+<!--            </plugin>-->
+
+<!--            &lt;!&ndash; BrowserStack Automate &ndash;&gt;-->
+<!--            <plugin>-->
+<!--                <groupId>com.browserstack</groupId>-->
+<!--                <artifactId>automate-maven-plugin</artifactId>-->
+<!--                <version>1.0.0</version>-->
+<!--                <configuration>-->
+<!--                    <source>11</source>-->
+<!--                    <target>11</target>-->
+<!--                    <complianceLevel>11</complianceLevel>-->
+<!--                </configuration>-->
+<!--                <dependencies>-->
+<!--                    <dependency>-->
+<!--                        <groupId>com.nickwongdev</groupId>-->
+<!--                        <artifactId>aspectj-maven-plugin</artifactId>-->
+<!--                        <version>1.12.1</version>-->
+<!--                    </dependency>-->
+<!--                </dependencies>-->
+<!--                <executions>-->
+<!--                    <execution>-->
+<!--                        <goals>-->
+<!--                            <goal>test-compile</goal>-->
+<!--                        </goals>-->
+<!--                    </execution>-->
+<!--                </executions>-->
+<!--            </plugin>-->
+<!--            &lt;!&ndash; /BrowserStack Automate &ndash;&gt;-->
+<!--        </plugins>-->
+<!--    </build>-->
 
 
 
