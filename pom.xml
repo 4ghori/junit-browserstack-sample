@@ -101,9 +101,9 @@
                 <artifactId>automate-maven-plugin</artifactId>
                 <version>1.0.0-SNAPSHOT</version>
                 <configuration>
-                    <source>1.6</source>
-                    <target>1.6</target>
-                    <complianceLevel>1.6</complianceLevel>
+                    <source>11</source>
+                    <target>11</target>
+                    <complianceLevel>11</complianceLevel>
                 </configuration>
                 <executions>
                     <execution>
