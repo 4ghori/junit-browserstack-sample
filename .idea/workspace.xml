@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="89ab65d6-86d4-448e-beb1-ecdaeb5cfe89" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="89ab65d6-86d4-448e-beb1-ecdaeb5cfe89" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -83,8 +80,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="42" column="30" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
+            <state relative-caret-position="-9">
+              <caret line="100" column="44" selection-start-line="100" selection-start-column="24" selection-end-line="100" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -143,12 +140,13 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>sun</find>
-      <find>automate-maven-plugin</find>
       <find>maven-compiler-plugin</find>
       <find>local</find>
       <find>maven-surefire-plugin</find>
       <find>aspectj</find>
       <find>automate-maven</find>
+      <find>automate-maven-plugin</find>
+      <find>aspectj-maven-plugin</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -411,7 +409,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1564010672150</updated>
-      <workItem from="1564010674495" duration="16130000" />
+      <workItem from="1564010674495" duration="16362000" />
     </task>
     <task id="LOCAL-00001" summary="Sample JUnit BrowserStack">
       <created>1564031293391</created>
@@ -456,7 +454,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16130000" />
+    <option name="totallyTimeSpent" value="16362000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -468,7 +466,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="823" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="821" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
@@ -484,9 +482,9 @@
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" weight="0.32909605" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="9" sideWeight="0.49928468" visible="true" weight="0.32909605" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="9" sideWeight="0.49928468" visible="true" weight="0.33002833" />
       <window_info anchor="bottom" id="Spring" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5007153" side_tool="true" visible="true" weight="0.32909605" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5007153" side_tool="true" visible="true" weight="0.33002833" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Terminal" order="13" weight="0.32909605" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -679,8 +677,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="42" column="30" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
+        <state relative-caret-position="-9">
+          <caret line="100" column="44" selection-start-line="100" selection-start-column="24" selection-end-line="100" selection-end-column="44" />
         </state>
       </provider>
     </entry>
