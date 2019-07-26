@@ -64,10 +64,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="133" column="39" selection-start-line="133" selection-start-column="39" selection-end-line="133" selection-end-column="39" />
+            <state relative-caret-position="437">
+              <caret line="133" column="40" selection-start-line="133" selection-start-column="40" selection-end-line="133" selection-end-column="40" />
               <folding>
-                <marker date="1564114953328" expanded="true" signature="4045:4698" ph="..." />
+                <marker date="1564115101016" expanded="true" signature="4048:4704" ph="..." />
               </folding>
             </state>
           </provider>
@@ -379,7 +379,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1564010672150</updated>
-      <workItem from="1564010674495" duration="25810000" />
+      <workItem from="1564010674495" duration="25948000" />
     </task>
     <task id="LOCAL-00001" summary="Sample JUnit BrowserStack">
       <created>1564031293391</created>
@@ -424,7 +424,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25810000" />
+    <option name="totallyTimeSpent" value="25948000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -674,10 +674,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="133" column="39" selection-start-line="133" selection-start-column="39" selection-end-line="133" selection-end-column="39" />
+        <state relative-caret-position="437">
+          <caret line="133" column="40" selection-start-line="133" selection-start-column="40" selection-end-line="133" selection-end-column="40" />
           <folding>
-            <marker date="1564114953328" expanded="true" signature="4045:4698" ph="..." />
+            <marker date="1564115101016" expanded="true" signature="4048:4704" ph="..." />
           </folding>
         </state>
       </provider>

@@ -109,9 +109,9 @@
                 <artifactId>aspectj-maven-plugin</artifactId>
                 <version>1.11.1</version>
                 <configuration>
-                    <complianceLevel>11</complianceLevel>
-                    <source>11</source>
-                    <target>11</target>
+                    <complianceLevel>1.9</complianceLevel>
+                    <source>1.9</source>
+                    <target>1.9</target>
                 </configuration>
                 <executions>
                     <execution>
@@ -129,9 +129,9 @@
                 <artifactId>automate-maven-plugin</artifactId>
                 <version>1.0.0-SNAPSHOT</version>
                 <configuration>
-                    <source>11</source>
-                    <target>11</target>
-                    <complianceLevel>11</complianceLevel>
+                    <source>1.9</source>
+                    <target>1.9</target>
+                    <complianceLevel>1.9</complianceLevel>
                 </configuration>
                 <executions>
                     <execution>
