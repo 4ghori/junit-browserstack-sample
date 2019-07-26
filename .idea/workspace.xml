@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89ab65d6-86d4-448e-beb1-ecdaeb5cfe89" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -65,8 +64,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="118" column="39" selection-start-line="118" selection-start-column="39" selection-end-line="118" selection-end-column="39" />
+            <state relative-caret-position="296">
+              <caret line="131" column="40" selection-start-line="131" selection-start-column="40" selection-end-line="131" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -120,6 +119,7 @@
       <find>automate-maven-plugin</find>
       <find>maven-compiler-plugin</find>
       <find>aspectj-maven-plugin</find>
+      <find>sonatype-nexus-snapshots</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -376,7 +376,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1564010672150</updated>
-      <workItem from="1564010674495" duration="24560000" />
+      <workItem from="1564010674495" duration="24779000" />
     </task>
     <task id="LOCAL-00001" summary="Sample JUnit BrowserStack">
       <created>1564031293391</created>
@@ -389,9 +389,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LocalTest - 2019.07.25 at 14h 06m 03s.xml">
-      <configuration name="LocalTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="LocalTest - 2019.07.25 at 15h 21m 45s.xml">
       <configuration name="LocalTest" configurationId="JUnit" />
     </history-entry>
@@ -419,9 +416,12 @@
     <history-entry file="LocalTest - 2019.07.26 at 15h 57m 11s.xml">
       <configuration name="LocalTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="LocalTest - 2019.07.26 at 16h 01m 29s.xml">
+      <configuration name="LocalTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24560000" />
+    <option name="totallyTimeSpent" value="24779000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -451,7 +451,7 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49928468" weight="0.33002833" />
       <window_info anchor="bottom" id="Spring" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5007153" side_tool="true" weight="0.33002833" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50143063" side_tool="true" visible="true" weight="0.21954674" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Terminal" order="13" weight="0.32909605" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -590,13 +590,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/conf/local.conf.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/browserstack/sample/SampleServer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="67">
@@ -669,10 +662,17 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/conf/local.conf.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="118" column="39" selection-start-line="118" selection-start-column="39" selection-end-line="118" selection-end-column="39" />
+        <state relative-caret-position="296">
+          <caret line="131" column="40" selection-start-line="131" selection-start-column="40" selection-end-line="131" selection-end-column="40" />
         </state>
       </provider>
     </entry>
