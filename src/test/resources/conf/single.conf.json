@@ -10,5 +10,8 @@
 
   "environments": [{
     "browser": "chrome"
-  }]
+  }],
+  "dependencies": {
+    "wdio-browserstack-reporter": "~1.0.0"
+  }
 }
