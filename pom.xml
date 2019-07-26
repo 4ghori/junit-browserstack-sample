@@ -113,6 +113,7 @@
                                 <weaveDependency>
                                     <groupId>io.grpc</groupId>
                                     <artifactId>grpc-netty</artifactId>
+                                    <version>1.3.0</version>
                                 </weaveDependency>
                             </weaveDependencies>
                             <showWeaveInfo>true</showWeaveInfo>
