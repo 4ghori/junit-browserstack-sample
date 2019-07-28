@@ -89,7 +89,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/com/browserstack/sample/SingleTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
-              <caret line="19" column="13" selection-start-line="19" selection-end-line="20" />
+              <caret line="19" column="23" lean-forward="true" selection-start-line="19" selection-end-line="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -441,7 +441,7 @@
       <option name="presentableId" value="Default" />
       <updated>1564010672150</updated>
       <workItem from="1564010674495" duration="26726000" />
-      <workItem from="1564349297271" duration="5590000" />
+      <workItem from="1564349297271" duration="5754000" />
     </task>
     <task id="LOCAL-00001" summary="Sample JUnit BrowserStack">
       <created>1564031293391</created>
@@ -486,7 +486,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32316000" />
+    <option name="totallyTimeSpent" value="32480000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -731,7 +731,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/com/browserstack/sample/SingleTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="19" column="13" selection-start-line="19" selection-end-line="20" />
+          <caret line="19" column="23" lean-forward="true" selection-start-line="19" selection-end-line="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
