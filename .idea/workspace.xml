@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89ab65d6-86d4-448e-beb1-ecdaeb5cfe89" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/browserstack/sample/SingleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/browserstack/sample/SingleTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -64,8 +61,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="152" column="29" lean-forward="true" selection-start-line="152" selection-start-column="29" selection-end-line="152" selection-end-column="29" />
+            <state relative-caret-position="255">
+              <caret line="17" column="17" lean-forward="true" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -92,7 +89,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/com/browserstack/sample/SingleTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
-              <caret line="19" column="20" selection-start-line="19" selection-end-line="20" />
+              <caret line="19" column="13" selection-start-line="19" selection-end-line="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -285,6 +282,18 @@
               <item name="automate-junit-ci-sample" type="462c0819:PsiDirectoryNode" />
               <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="junit-browserstack" type="b2602c69:ProjectViewProjectNode" />
+              <item name="automate-junit-ci-sample" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="surefire" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="junit-browserstack" type="b2602c69:ProjectViewProjectNode" />
+              <item name="automate-junit-ci-sample" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="surefire-reports" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -432,7 +441,7 @@
       <option name="presentableId" value="Default" />
       <updated>1564010672150</updated>
       <workItem from="1564010674495" duration="26726000" />
-      <workItem from="1564349297271" duration="4912000" />
+      <workItem from="1564349297271" duration="5590000" />
     </task>
     <task id="LOCAL-00001" summary="Sample JUnit BrowserStack">
       <created>1564031293391</created>
@@ -477,7 +486,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31638000" />
+    <option name="totallyTimeSpent" value="32316000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -492,14 +501,14 @@
     <frame x="0" y="23" width="1440" height="823" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="0" weight="0.3286119" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.3286119" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" sideWeight="0.4985694" visible="true" weight="0.31920904" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.4985694" visible="true" weight="0.31920904" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.33493975" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -714,15 +723,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="152" column="29" lean-forward="true" selection-start-line="152" selection-start-column="29" selection-end-line="152" selection-end-column="29" />
+        <state relative-caret-position="255">
+          <caret line="17" column="17" lean-forward="true" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/browserstack/sample/SingleTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="19" column="20" selection-start-line="19" selection-end-line="20" />
+          <caret line="19" column="13" selection-start-line="19" selection-end-line="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
