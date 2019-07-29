@@ -4,13 +4,16 @@
   "key": "LsvzukhU53pvHWEBAKUG",
 
   "capabilities": {
-    "name": "Bstack-[Junit] Sample Test",
+    "build": "testng-browserstack",
+    "name": "single_appium_test",
     "browserstack.debug": true
   },
 
-  "environments": [{
-    "browser": "chrome"
-  }],
+  "environments": {
+    "chrome": {
+      "browser": "chrome"
+    }
+  },
   "dependencies": {
     "wdio-browserstack-reporter": "~1.0.0"
   }

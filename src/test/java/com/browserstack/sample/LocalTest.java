@@ -1,15 +1,14 @@
 package com.browserstack.sample;
 
-import static org.junit.Assert.*;
+import org.testng.Assert;
+import org.testng.annotations.Test;
 
-import org.junit.Test;
-
-public class LocalTest extends BrowserStackJUnitTest {
+public class LocalTest extends BrowserStackTestNGTest {
 
     @Test
     public void test() throws Exception {
         driver.get("http://bs-local.com:45691/check");
 
-        assertTrue(driver.getPageSource().contains("Up and running"));
+        Assert.assertTrue(driver.getPageSource().contains("Up and running"));
     }
 }

@@ -1,59 +1,38 @@
 package com.browserstack.sample;
 import com.browserstack.local.Local;
 
-import com.browserstack.sample.runner.Parallelized;
-import java.io.FileReader;
 import java.net.URL;
-import java.util.HashMap;
 import java.util.Map;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.HashMap;
 import java.util.Iterator;
+import java.io.FileReader;
 import org.json.simple.JSONObject;
-import org.json.simple.JSONArray;
 import org.json.simple.parser.JSONParser;
 
+
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
-import org.junit.After;
-import org.junit.Before;
-import org.junit.runner.RunWith;
-import org.junit.runners.Parameterized.Parameters;
-import org.junit.runners.Parameterized.Parameter;
+import org.openqa.selenium.remote.RemoteWebDriver;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.Parameters;
 
-@RunWith(Parallelized.class)
-public class BrowserStackJUnitTest {
+
+public class BrowserStackTestNGTest {
     public WebDriver driver;
     private Local l;
 
-    private static JSONObject config;
-
-    @Parameter(value = 0)
-    public int taskID;
-
-    @Parameters
-    public static Iterable<? extends Object> data() throws Exception {
+    @BeforeMethod(alwaysRun=true)
+    @Parameters(value={"config", "environment"})
+    public void setUp(String config_file, String environment) throws Exception {
         JSONParser parser = new JSONParser();
-        config = (JSONObject) parser.parse(new FileReader("src/test/resources/conf/" + System.getProperty("config")));
-        int envs = ((JSONArray)config.get("environments")).size();
-
-        List<Integer> taskIDs = new ArrayList<Integer>();
-        for(int i=0; i<envs; i++) {
-            taskIDs.add(i);
-        }
-
-        return taskIDs;
-    }
-
-    @Before
-    public void setUp() throws Exception {
-        JSONArray envs = (JSONArray) config.get("environments");
+        JSONObject config = (JSONObject) parser.parse(new FileReader("src/test/resources/conf/" + config_file));
+        JSONObject envs = (JSONObject) config.get("environments");
 
         DesiredCapabilities capabilities = new DesiredCapabilities();
 
-        Map<String, String> envCapabilities = (Map<String, String>) envs.get(taskID);
+        Map<String, String> envCapabilities = (Map<String, String>) envs.get(environment);
         Iterator it = envCapabilities.entrySet().iterator();
         while (it.hasNext()) {
             Map.Entry pair = (Map.Entry)it.next();
@@ -94,12 +73,9 @@ public class BrowserStackJUnitTest {
         driver = new RemoteWebDriver(new URL("http://"+username+":"+accessKey+"@"+config.get("server")+"/wd/hub"), capabilities);
     }
 
-    @After
+    @AfterMethod(alwaysRun=true)
     public void tearDown() throws Exception {
         driver.quit();
         if(l != null) l.stop();
     }
 }
-
-
-

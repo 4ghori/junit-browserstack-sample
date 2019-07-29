@@ -1,12 +1,13 @@
 package com.browserstack.sample;
 
-import static org.junit.Assert.*;
 
-import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.testng.annotations.Test;
 
-public class SingleTest extends BrowserStackJUnitTest {
+import org.testng.Assert;
+
+public class SingleTest extends BrowserStackTestNGTest {
 
     @Test
     public void test() throws Exception {
@@ -16,8 +17,9 @@ public class SingleTest extends BrowserStackJUnitTest {
         element.submit();
         Thread.sleep(5000);
 
-        assertEquals("BrowserStack - Google Search", driver.getTitle());
+        Assert.assertEquals("BrowserStack - Google Search", driver.getTitle());
 //        assertEquals("dasdasdasda - dsadasda", driver.getTitle());
 
     }
 }
+
