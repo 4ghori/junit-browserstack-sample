@@ -7,7 +7,9 @@
     "name": "parallel_test",
     "browserstack.debug": true
   },
-
+  "scripts": {
+    "test": "wdio wdio.conf.js"
+  },
   "environments": {
     "chrome": {
       "browser": "chrome"
