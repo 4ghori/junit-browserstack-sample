@@ -9,7 +9,7 @@ exports.config = {
     // values you need to put in here in order to connect to these services.
     //
     user: process.env.BROWSERSTACK_USERNAME,
-    key: process.env.BROWSERSTACK_ACCESS_KEY,
+    key: process.env.BROWSERSTACK_ACCESSKEY,
     
     
     //
